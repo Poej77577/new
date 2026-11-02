@@ -1,0 +1,23 @@
+{
+  "stage": 2,
+  "approved_by_user": true,
+  "status": "BLOCKED_WAITING_FOR_SOURCE_IMAGES",
+  "dataset": "Dresden Vocal Tract Dataset",
+  "source_record": "https://springernature.figshare.com/articles/dataset/Dresden_Vocal_Tract_Dataset_complete_archive_/11897187",
+  "provisional_case": "s1-22-ehe-schwa",
+  "network_policy_state": "enforced",
+  "source_hosts_available_in_runtime": false,
+  "official_record_browser_result": "HTTP 403 Forbidden",
+  "raw_volume_received": false,
+  "pixel_data_inspected": false,
+  "segmentation_created": false,
+  "image_derived_meshes_created": false,
+  "stage3_started": false,
+  "required_upload": [
+    "original .ima MRI series for s1-22-ehe-schwa",
+    "s1-maxilla.stl",
+    "s1-mandible.stl",
+    "available acquisition/readme/registration files"
+  ],
+  "checked_at_utc": "2026-11-02T20:16:21.926173+00:00"
+}
