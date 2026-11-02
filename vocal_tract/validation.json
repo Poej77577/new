@@ -1,92 +1,45 @@
 {
-  "cranio_cervical_tissue": {
-    "boundary_edges": 0,
-    "nonmanifold_edges": 0,
-    "zero_area_faces": 0
+  "all_source_meshes_closed": true,
+  "all_source_meshes_no_zero_area_faces": true,
+  "deformer_group_weights_normalized": true,
+  "no_armature_or_animation": true,
+  "jaw_reference_test_rotation_deg": -12,
+  "lower_incisor_mean_inferior_displacement_mm": 18.25,
+  "upper_arch_stationary_during_jaw_test": true,
+  "source_bilateral_dimensions_mm_XYZ": {
+    "tongue": [
+      80.13,
+      58.11,
+      63.85
+    ],
+    "upper_lip": [
+      24.04,
+      52.0,
+      11.35
+    ],
+    "lower_lip": [
+      24.04,
+      52.0,
+      13.3
+    ],
+    "soft_palate": [
+      23.89,
+      44.0,
+      29.2
+    ],
+    "lower_jaw": [
+      109.5,
+      117.89,
+      74.52
+    ],
+    "upper_teeth": [
+      62.34,
+      63.22,
+      11.44
+    ]
   },
-  "epiglottis": {
-    "boundary_edges": 0,
-    "nonmanifold_edges": 0,
-    "zero_area_faces": 0
-  },
-  "hard_palate": {
-    "boundary_edges": 0,
-    "nonmanifold_edges": 0,
-    "zero_area_faces": 0
-  },
-  "inferior_nasal_concha": {
-    "boundary_edges": 0,
-    "nonmanifold_edges": 0,
-    "zero_area_faces": 0
-  },
-  "laryngeal_inlet": {
-    "boundary_edges": 0,
-    "nonmanifold_edges": 0,
-    "zero_area_faces": 0
-  },
-  "lower_jaw": {
-    "boundary_edges": 0,
-    "nonmanifold_edges": 0,
-    "zero_area_faces": 0
-  },
-  "lower_lip": {
-    "boundary_edges": 0,
-    "nonmanifold_edges": 0,
-    "zero_area_faces": 0
-  },
-  "lower_teeth": {
-    "boundary_edges": 0,
-    "nonmanifold_edges": 0,
-    "zero_area_faces": 0
-  },
-  "middle_nasal_concha": {
-    "boundary_edges": 0,
-    "nonmanifold_edges": 0,
-    "zero_area_faces": 0
-  },
-  "nasal_cavity": {
-    "boundary_edges": 0,
-    "nonmanifold_edges": 0,
-    "zero_area_faces": 0
-  },
-  "oral_cavity_boundary": {
-    "boundary_edges": 0,
-    "nonmanifold_edges": 0,
-    "zero_area_faces": 0
-  },
-  "pharynx": {
-    "boundary_edges": 0,
-    "nonmanifold_edges": 0,
-    "zero_area_faces": 0
-  },
-  "soft_palate": {
-    "boundary_edges": 0,
-    "nonmanifold_edges": 0,
-    "zero_area_faces": 0
-  },
-  "submandibular_tissue": {
-    "boundary_edges": 0,
-    "nonmanifold_edges": 0,
-    "zero_area_faces": 0
-  },
-  "tongue": {
-    "boundary_edges": 0,
-    "nonmanifold_edges": 0,
-    "zero_area_faces": 0
-  },
-  "upper_jaw": {
-    "boundary_edges": 0,
-    "nonmanifold_edges": 0,
-    "zero_area_faces": 0
-  },
-  "upper_lip": {
-    "boundary_edges": 0,
-    "nonmanifold_edges": 0,
-    "zero_area_faces": 0
-  },
-  "upper_teeth": {
-    "boundary_edges": 0,
-    "nonmanifold_edges": 0,
-    "zero_area_faces": 0
-  }
+  "motion_limits": "Reference jaw transform verified only; no soft tissue deformation, collision, phoneme or clinical simulation validated.",
+  "glb_reimport_meshes": 73,
+  "glb_height_m": 0.27319,
+  "glb_embedded_images": 12
 }

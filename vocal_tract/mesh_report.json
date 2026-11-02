@@ -1,110 +1,1023 @@
 {
   "cranio_cervical_tissue": {
-    "vertices": 760,
-    "faces": 686,
-    "quad_faces": 684,
-    "depth_mm": 27.0
+    "source_vertices": 2470,
+    "source_faces": 2342,
+    "source_quad_fraction": 0.9991,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      167.65,
+      65.75,
+      273.19
+    ],
+    "vertex_groups": []
   },
-  "epiglottis": {
-    "vertices": 357,
-    "faces": 342,
-    "quad_faces": 340,
-    "depth_mm": 6.52
+  "nasal_bridge_cartilage": {
+    "source_vertices": 672,
+    "source_faces": 642,
+    "source_quad_fraction": 0.9969,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      22.37,
+      15.76,
+      52.89
+    ],
+    "vertex_groups": []
+  },
+  "maxillary_support": {
+    "source_vertices": 1140,
+    "source_faces": 1082,
+    "source_quad_fraction": 0.9982,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      75.56,
+      28.1,
+      36.3
+    ],
+    "vertex_groups": []
+  },
+  "nasolabial_tissue": {
+    "source_vertices": 512,
+    "source_faces": 482,
+    "source_quad_fraction": 0.9959,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      13.18,
+      21.63,
+      36.14
+    ],
+    "vertex_groups": []
   },
   "hard_palate": {
-    "vertices": 357,
-    "faces": 342,
-    "quad_faces": 340,
-    "depth_mm": 19.01
+    "source_vertices": 840,
+    "source_faces": 802,
+    "source_quad_fraction": 0.9975,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      59.99,
+      27.37,
+      11.51
+    ],
+    "vertex_groups": []
   },
-  "inferior_nasal_concha": {
-    "vertices": 357,
-    "faces": 342,
-    "quad_faces": 340,
-    "depth_mm": 8.7
-  },
-  "laryngeal_inlet": {
-    "vertices": 272,
-    "faces": 257,
-    "quad_faces": 255,
-    "depth_mm": 6.9
-  },
-  "lower_jaw": {
-    "vertices": 612,
-    "faces": 597,
-    "quad_faces": 595,
-    "depth_mm": 20.07
-  },
-  "lower_lip": {
-    "vertices": 272,
-    "faces": 257,
-    "quad_faces": 255,
-    "depth_mm": 12.0
-  },
-  "lower_teeth": {
-    "vertices": 1744,
-    "faces": 1728,
-    "quad_faces": 1728,
-    "depth_mm": 20.6
-  },
-  "middle_nasal_concha": {
-    "vertices": 272,
-    "faces": 257,
-    "quad_faces": 255,
-    "depth_mm": 7.34
-  },
-  "nasal_cavity": {
-    "vertices": 527,
-    "faces": 512,
-    "quad_faces": 510,
-    "depth_mm": 14.0
-  },
-  "oral_cavity_boundary": {
-    "vertices": 357,
-    "faces": 342,
-    "quad_faces": 340,
-    "depth_mm": 16.93
-  },
-  "pharynx": {
-    "vertices": 612,
-    "faces": 597,
-    "quad_faces": 595,
-    "depth_mm": 15.4
+  "palatal_mucosa": {
+    "source_vertices": 840,
+    "source_faces": 802,
+    "source_quad_fraction": 0.9975,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      58.94,
+      26.42,
+      10.34
+    ],
+    "vertex_groups": []
   },
   "soft_palate": {
-    "vertices": 357,
-    "faces": 342,
-    "quad_faces": 340,
-    "depth_mm": 12.8
+    "source_vertices": 1160,
+    "source_faces": 1122,
+    "source_quad_fraction": 0.9982,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      23.54,
+      22.33,
+      28.82
+    ],
+    "vertex_groups": [
+      "velum_attachment",
+      "velum_free_edge"
+    ]
   },
-  "submandibular_tissue": {
-    "vertices": 480,
-    "faces": 434,
-    "quad_faces": 432,
-    "depth_mm": 21.0
+  "uvula": {
+    "source_vertices": 384,
+    "source_faces": 362,
+    "source_quad_fraction": 0.9945,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      5.08,
+      3.84,
+      11.1
+    ],
+    "vertex_groups": []
   },
   "tongue": {
-    "vertices": 1225,
-    "faces": 1202,
-    "quad_faces": 1200,
-    "depth_mm": 17.68
+    "source_vertices": 3648,
+    "source_faces": 3586,
+    "source_quad_fraction": 0.9994,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      80.07,
+      29.73,
+      63.59
+    ],
+    "vertex_groups": [
+      "tongue_tip",
+      "tongue_blade",
+      "tongue_body",
+      "tongue_root"
+    ]
   },
-  "upper_jaw": {
-    "vertices": 440,
-    "faces": 398,
-    "quad_faces": 396,
-    "depth_mm": 21.5
+  "palatal_ruga_1": {
+    "source_vertices": 528,
+    "source_faces": 514,
+    "source_quad_fraction": 0.9961,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      3.16,
+      18.27,
+      1.82
+    ],
+    "vertex_groups": []
+  },
+  "palatal_ruga_2": {
+    "source_vertices": 528,
+    "source_faces": 514,
+    "source_quad_fraction": 0.9961,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      3.16,
+      18.27,
+      1.82
+    ],
+    "vertex_groups": []
+  },
+  "palatal_ruga_3": {
+    "source_vertices": 528,
+    "source_faces": 514,
+    "source_quad_fraction": 0.9961,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      3.16,
+      18.27,
+      1.82
+    ],
+    "vertex_groups": []
+  },
+  "palatal_ruga_4": {
+    "source_vertices": 528,
+    "source_faces": 514,
+    "source_quad_fraction": 0.9961,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      3.16,
+      18.27,
+      1.82
+    ],
+    "vertex_groups": []
+  },
+  "palatal_ruga_5": {
+    "source_vertices": 528,
+    "source_faces": 514,
+    "source_quad_fraction": 0.9961,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      3.16,
+      18.27,
+      1.82
+    ],
+    "vertex_groups": []
+  },
+  "genioglossus": {
+    "source_vertices": 840,
+    "source_faces": 802,
+    "source_quad_fraction": 0.9975,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      56.65,
+      21.24,
+      33.84
+    ],
+    "vertex_groups": []
+  },
+  "oral_cavity_boundary": {
+    "source_vertices": 840,
+    "source_faces": 802,
+    "source_quad_fraction": 0.9975,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      60.58,
+      28.66,
+      38.85
+    ],
+    "vertex_groups": []
+  },
+  "submandibular_tissue": {
+    "source_vertices": 1425,
+    "source_faces": 1352,
+    "source_quad_fraction": 0.9985,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      107.86,
+      31.75,
+      120.66
+    ],
+    "vertex_groups": []
   },
   "upper_lip": {
-    "vertices": 272,
-    "faces": 257,
-    "quad_faces": 255,
-    "depth_mm": 13.0
+    "source_vertices": 2600,
+    "source_faces": 2562,
+    "source_quad_fraction": 0.9992,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      23.73,
+      26.89,
+      11.29
+    ],
+    "vertex_groups": [
+      "lip_center",
+      "lip_commissure"
+    ]
+  },
+  "lower_lip": {
+    "source_vertices": 2600,
+    "source_faces": 2562,
+    "source_quad_fraction": 0.9992,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      23.73,
+      26.89,
+      13.17
+    ],
+    "vertex_groups": [
+      "lip_center",
+      "lip_commissure"
+    ]
+  },
+  "upper_lip_support": {
+    "source_vertices": 760,
+    "source_faces": 722,
+    "source_quad_fraction": 0.9972,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      18.19,
+      23.92,
+      28.72
+    ],
+    "vertex_groups": [
+      "lip_center",
+      "lip_commissure"
+    ]
+  },
+  "lower_lip_support": {
+    "source_vertices": 760,
+    "source_faces": 722,
+    "source_quad_fraction": 0.9972,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      18.37,
+      24.95,
+      28.14
+    ],
+    "vertex_groups": [
+      "lip_center",
+      "lip_commissure"
+    ]
+  },
+  "upper_orbicularis_attachment": {
+    "source_vertices": 352,
+    "source_faces": 322,
+    "source_quad_fraction": 0.9938,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      4.93,
+      24.23,
+      9.97
+    ],
+    "vertex_groups": []
+  },
+  "lower_orbicularis_attachment": {
+    "source_vertices": 352,
+    "source_faces": 322,
+    "source_quad_fraction": 0.9938,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      8.37,
+      24.07,
+      12.88
+    ],
+    "vertex_groups": []
+  },
+  "lower_jaw": {
+    "source_vertices": 2912,
+    "source_faces": 2882,
+    "source_quad_fraction": 0.9993,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      109.18,
+      58.91,
+      73.99
+    ],
+    "vertex_groups": []
+  },
+  "upper_gingiva": {
+    "source_vertices": 3096,
+    "source_faces": 3074,
+    "source_quad_fraction": 0.9993,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      62.43,
+      32.44,
+      11.41
+    ],
+    "vertex_groups": []
+  },
+  "lower_gingiva": {
+    "source_vertices": 3096,
+    "source_faces": 3074,
+    "source_quad_fraction": 0.9993,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      62.04,
+      32.04,
+      10.62
+    ],
+    "vertex_groups": []
+  },
+  "upper_alveolar_bone": {
+    "source_vertices": 3096,
+    "source_faces": 3074,
+    "source_quad_fraction": 0.9993,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      64.66,
+      34.11,
+      15.76
+    ],
+    "vertex_groups": []
+  },
+  "lower_alveolar_bone": {
+    "source_vertices": 3096,
+    "source_faces": 3074,
+    "source_quad_fraction": 0.9993,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      65.68,
+      35.1,
+      17.74
+    ],
+    "vertex_groups": []
   },
   "upper_teeth": {
-    "vertices": 1744,
-    "faces": 1728,
-    "quad_faces": 1728,
-    "depth_mm": 21.37
+    "source_vertices": 4608,
+    "source_faces": 4256,
+    "source_quad_fraction": 0.9925,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      61.9,
+      32.4,
+      10.91
+    ],
+    "vertex_groups": []
+  },
+  "lower_teeth": {
+    "source_vertices": 4608,
+    "source_faces": 4256,
+    "source_quad_fraction": 0.9925,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      61.9,
+      32.4,
+      9.63
+    ],
+    "vertex_groups": []
+  },
+  "upper_tooth_roots": {
+    "source_vertices": 9216,
+    "source_faces": 8512,
+    "source_quad_fraction": 0.9925,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      59.66,
+      30.33,
+      13.88
+    ],
+    "vertex_groups": []
+  },
+  "lower_tooth_roots": {
+    "source_vertices": 9216,
+    "source_faces": 8512,
+    "source_quad_fraction": 0.9925,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      59.66,
+      30.33,
+      13.88
+    ],
+    "vertex_groups": []
+  },
+  "nasal_cavity": {
+    "source_vertices": 1240,
+    "source_faces": 1202,
+    "source_quad_fraction": 0.9983,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      111.77,
+      23.57,
+      41.47
+    ],
+    "vertex_groups": []
+  },
+  "nasal_floor": {
+    "source_vertices": 672,
+    "source_faces": 642,
+    "source_quad_fraction": 0.9969,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      75.91,
+      25.86,
+      11.86
+    ],
+    "vertex_groups": []
+  },
+  "inferior_nasal_concha": {
+    "source_vertices": 672,
+    "source_faces": 642,
+    "source_quad_fraction": 0.9969,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      64.94,
+      15.45,
+      10.5
+    ],
+    "vertex_groups": []
+  },
+  "inferior_nasal_concha_contralateral": {
+    "source_vertices": 672,
+    "source_faces": 642,
+    "source_quad_fraction": 0.9969,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      0,
+      0,
+      0
+    ],
+    "vertex_groups": []
+  },
+  "middle_nasal_concha": {
+    "source_vertices": 672,
+    "source_faces": 642,
+    "source_quad_fraction": 0.9969,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      50.08,
+      12.88,
+      10.45
+    ],
+    "vertex_groups": []
+  },
+  "middle_nasal_concha_contralateral": {
+    "source_vertices": 672,
+    "source_faces": 642,
+    "source_quad_fraction": 0.9969,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      0,
+      0,
+      0
+    ],
+    "vertex_groups": []
+  },
+  "superior_nasal_concha": {
+    "source_vertices": 672,
+    "source_faces": 642,
+    "source_quad_fraction": 0.9969,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      28.62,
+      9.01,
+      10.3
+    ],
+    "vertex_groups": []
+  },
+  "superior_nasal_concha_contralateral": {
+    "source_vertices": 672,
+    "source_faces": 642,
+    "source_quad_fraction": 0.9969,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      0,
+      0,
+      0
+    ],
+    "vertex_groups": []
+  },
+  "pharynx": {
+    "source_vertices": 1720,
+    "source_faces": 1682,
+    "source_quad_fraction": 0.9988,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      20.71,
+      23.59,
+      166.17
+    ],
+    "vertex_groups": []
+  },
+  "epiglottis": {
+    "source_vertices": 1000,
+    "source_faces": 962,
+    "source_quad_fraction": 0.9979,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      11.47,
+      12.98,
+      39.04
+    ],
+    "vertex_groups": []
+  },
+  "aryepiglottic_fold": {
+    "source_vertices": 352,
+    "source_faces": 322,
+    "source_quad_fraction": 0.9938,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      7.22,
+      12.65,
+      17.35
+    ],
+    "vertex_groups": []
+  },
+  "laryngeal_anterior_wall": {
+    "source_vertices": 352,
+    "source_faces": 322,
+    "source_quad_fraction": 0.9938,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      5.62,
+      12.69,
+      20.95
+    ],
+    "vertex_groups": []
+  },
+  "laryngeal_posterior_wall": {
+    "source_vertices": 352,
+    "source_faces": 322,
+    "source_quad_fraction": 0.9938,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      5.43,
+      12.6,
+      24.93
+    ],
+    "vertex_groups": []
+  },
+  "vocal_fold_right": {
+    "source_vertices": 180,
+    "source_faces": 162,
+    "source_quad_fraction": 0.9877,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      0,
+      0,
+      0
+    ],
+    "vertex_groups": []
+  },
+  "vocal_fold_left": {
+    "source_vertices": 180,
+    "source_faces": 162,
+    "source_quad_fraction": 0.9877,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      13.96,
+      5.54,
+      3.77
+    ],
+    "vertex_groups": []
+  },
+  "tracheal_wall": {
+    "source_vertices": 2400,
+    "source_faces": 2400,
+    "source_quad_fraction": 1.0,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      19.94,
+      9.57,
+      34.88
+    ],
+    "vertex_groups": []
+  },
+  "esophagus": {
+    "source_vertices": 2400,
+    "source_faces": 2400,
+    "source_quad_fraction": 1.0,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      11.57,
+      8.48,
+      42.85
+    ],
+    "vertex_groups": []
+  },
+  "tracheal_cartilage_01": {
+    "source_vertices": 1168,
+    "source_faces": 1154,
+    "source_quad_fraction": 0.9983,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      20.03,
+      10.76,
+      2.05
+    ],
+    "vertex_groups": []
+  },
+  "tracheal_cartilage_02": {
+    "source_vertices": 1168,
+    "source_faces": 1154,
+    "source_quad_fraction": 0.9983,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      20.03,
+      10.76,
+      2.05
+    ],
+    "vertex_groups": []
+  },
+  "tracheal_cartilage_03": {
+    "source_vertices": 1168,
+    "source_faces": 1154,
+    "source_quad_fraction": 0.9983,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      20.03,
+      10.76,
+      2.05
+    ],
+    "vertex_groups": []
+  },
+  "tracheal_cartilage_04": {
+    "source_vertices": 1168,
+    "source_faces": 1154,
+    "source_quad_fraction": 0.9983,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      20.03,
+      10.76,
+      2.05
+    ],
+    "vertex_groups": []
+  },
+  "tracheal_cartilage_05": {
+    "source_vertices": 1168,
+    "source_faces": 1154,
+    "source_quad_fraction": 0.9983,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      20.03,
+      10.76,
+      2.05
+    ],
+    "vertex_groups": []
+  },
+  "tracheal_cartilage_06": {
+    "source_vertices": 1168,
+    "source_faces": 1154,
+    "source_quad_fraction": 0.9983,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      20.03,
+      10.76,
+      2.05
+    ],
+    "vertex_groups": []
+  },
+  "tracheal_cartilage_07": {
+    "source_vertices": 1168,
+    "source_faces": 1154,
+    "source_quad_fraction": 0.9983,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      20.03,
+      10.76,
+      2.05
+    ],
+    "vertex_groups": []
+  },
+  "tracheal_cartilage_08": {
+    "source_vertices": 1168,
+    "source_faces": 1154,
+    "source_quad_fraction": 0.9983,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      20.03,
+      10.76,
+      2.05
+    ],
+    "vertex_groups": []
+  },
+  "hyoid": {
+    "source_vertices": 2328,
+    "source_faces": 2306,
+    "source_quad_fraction": 0.9991,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      19.08,
+      19.9,
+      5.89
+    ],
+    "vertex_groups": []
+  },
+  "cervical_body_3": {
+    "source_vertices": 570,
+    "source_faces": 542,
+    "source_quad_fraction": 0.9963,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      24.64,
+      14.25,
+      20.26
+    ],
+    "vertex_groups": []
+  },
+  "cervical_disc_3": {
+    "source_vertices": 380,
+    "source_faces": 362,
+    "source_quad_fraction": 0.9945,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      23.56,
+      13.32,
+      3.72
+    ],
+    "vertex_groups": []
+  },
+  "cervical_body_4": {
+    "source_vertices": 570,
+    "source_faces": 542,
+    "source_quad_fraction": 0.9963,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      24.64,
+      14.25,
+      20.26
+    ],
+    "vertex_groups": []
+  },
+  "cervical_disc_4": {
+    "source_vertices": 380,
+    "source_faces": 362,
+    "source_quad_fraction": 0.9945,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      23.56,
+      13.32,
+      3.72
+    ],
+    "vertex_groups": []
+  },
+  "cervical_body_5": {
+    "source_vertices": 570,
+    "source_faces": 542,
+    "source_quad_fraction": 0.9963,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      24.64,
+      14.25,
+      20.26
+    ],
+    "vertex_groups": []
+  },
+  "cervical_disc_5": {
+    "source_vertices": 380,
+    "source_faces": 362,
+    "source_quad_fraction": 0.9945,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      23.56,
+      13.32,
+      3.72
+    ],
+    "vertex_groups": []
+  },
+  "cervical_body_6": {
+    "source_vertices": 570,
+    "source_faces": 542,
+    "source_quad_fraction": 0.9963,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      24.64,
+      14.25,
+      20.26
+    ],
+    "vertex_groups": []
+  },
+  "cervical_disc_6": {
+    "source_vertices": 380,
+    "source_faces": 362,
+    "source_quad_fraction": 0.9945,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      23.56,
+      13.32,
+      3.72
+    ],
+    "vertex_groups": []
+  },
+  "cervical_body_7": {
+    "source_vertices": 570,
+    "source_faces": 542,
+    "source_quad_fraction": 0.9963,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      24.64,
+      14.25,
+      20.26
+    ],
+    "vertex_groups": []
+  },
+  "vallate_papilla_-1_0": {
+    "source_vertices": 112,
+    "source_faces": 98,
+    "source_quad_fraction": 0.9796,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      2.01,
+      1.82,
+      1.28
+    ],
+    "vertex_groups": []
+  },
+  "vallate_papilla_-1_1": {
+    "source_vertices": 112,
+    "source_faces": 98,
+    "source_quad_fraction": 0.9796,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      2.01,
+      1.82,
+      1.28
+    ],
+    "vertex_groups": []
+  },
+  "vallate_papilla_-1_2": {
+    "source_vertices": 112,
+    "source_faces": 98,
+    "source_quad_fraction": 0.9796,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      2.01,
+      1.82,
+      1.28
+    ],
+    "vertex_groups": []
+  },
+  "vallate_papilla_-1_3": {
+    "source_vertices": 112,
+    "source_faces": 98,
+    "source_quad_fraction": 0.9796,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      2.01,
+      1.82,
+      1.28
+    ],
+    "vertex_groups": []
+  },
+  "vallate_papilla_-1_4": {
+    "source_vertices": 112,
+    "source_faces": 98,
+    "source_quad_fraction": 0.9796,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      2.01,
+      1.82,
+      1.28
+    ],
+    "vertex_groups": []
+  },
+  "vallate_papilla_1_0": {
+    "source_vertices": 112,
+    "source_faces": 98,
+    "source_quad_fraction": 0.9796,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      2.01,
+      1.82,
+      1.28
+    ],
+    "vertex_groups": []
+  },
+  "vallate_papilla_1_1": {
+    "source_vertices": 112,
+    "source_faces": 98,
+    "source_quad_fraction": 0.9796,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      2.01,
+      1.82,
+      1.28
+    ],
+    "vertex_groups": []
+  },
+  "vallate_papilla_1_2": {
+    "source_vertices": 112,
+    "source_faces": 98,
+    "source_quad_fraction": 0.9796,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      2.01,
+      1.82,
+      1.28
+    ],
+    "vertex_groups": []
+  },
+  "vallate_papilla_1_3": {
+    "source_vertices": 112,
+    "source_faces": 98,
+    "source_quad_fraction": 0.9796,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      2.01,
+      1.82,
+      1.28
+    ],
+    "vertex_groups": []
+  },
+  "vallate_papilla_1_4": {
+    "source_vertices": 112,
+    "source_faces": 98,
+    "source_quad_fraction": 0.9796,
+    "source_nonmanifold_edges": 0,
+    "source_zero_area_faces": 0,
+    "display_dimensions_mm_XYZ": [
+      2.01,
+      1.82,
+      1.28
+    ],
+    "vertex_groups": []
   }
 }
