@@ -1,0 +1,110 @@
+{
+  "cranio_cervical_tissue": {
+    "vertices": 760,
+    "faces": 686,
+    "quad_faces": 684,
+    "depth_mm": 27.0
+  },
+  "epiglottis": {
+    "vertices": 357,
+    "faces": 342,
+    "quad_faces": 340,
+    "depth_mm": 6.52
+  },
+  "hard_palate": {
+    "vertices": 357,
+    "faces": 342,
+    "quad_faces": 340,
+    "depth_mm": 19.01
+  },
+  "inferior_nasal_concha": {
+    "vertices": 357,
+    "faces": 342,
+    "quad_faces": 340,
+    "depth_mm": 8.7
+  },
+  "laryngeal_inlet": {
+    "vertices": 272,
+    "faces": 257,
+    "quad_faces": 255,
+    "depth_mm": 6.9
+  },
+  "lower_jaw": {
+    "vertices": 612,
+    "faces": 597,
+    "quad_faces": 595,
+    "depth_mm": 20.07
+  },
+  "lower_lip": {
+    "vertices": 272,
+    "faces": 257,
+    "quad_faces": 255,
+    "depth_mm": 12.0
+  },
+  "lower_teeth": {
+    "vertices": 1744,
+    "faces": 1728,
+    "quad_faces": 1728,
+    "depth_mm": 20.6
+  },
+  "middle_nasal_concha": {
+    "vertices": 272,
+    "faces": 257,
+    "quad_faces": 255,
+    "depth_mm": 7.34
+  },
+  "nasal_cavity": {
+    "vertices": 527,
+    "faces": 512,
+    "quad_faces": 510,
+    "depth_mm": 14.0
+  },
+  "oral_cavity_boundary": {
+    "vertices": 357,
+    "faces": 342,
+    "quad_faces": 340,
+    "depth_mm": 16.93
+  },
+  "pharynx": {
+    "vertices": 612,
+    "faces": 597,
+    "quad_faces": 595,
+    "depth_mm": 15.4
+  },
+  "soft_palate": {
+    "vertices": 357,
+    "faces": 342,
+    "quad_faces": 340,
+    "depth_mm": 12.8
+  },
+  "submandibular_tissue": {
+    "vertices": 480,
+    "faces": 434,
+    "quad_faces": 432,
+    "depth_mm": 21.0
+  },
+  "tongue": {
+    "vertices": 1225,
+    "faces": 1202,
+    "quad_faces": 1200,
+    "depth_mm": 17.68
+  },
+  "upper_jaw": {
+    "vertices": 440,
+    "faces": 398,
+    "quad_faces": 396,
+    "depth_mm": 21.5
+  },
+  "upper_lip": {
+    "vertices": 272,
+    "faces": 257,
+    "quad_faces": 255,
+    "depth_mm": 13.0
+  },
+  "upper_teeth": {
+    "vertices": 1744,
+    "faces": 1728,
+    "quad_faces": 1728,
+    "depth_mm": 21.37
+  }
+}
